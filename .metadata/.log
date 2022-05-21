@@ -163,3 +163,18 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.eclipse.ui 2 2 2022-05-21 19:42:10.508
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-21 20:10:36.862
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-21 20:10:36.871
+!MESSAGE classpath=95 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-21 20:10:36.879
+!MESSAGE buffering callback sts4.classpath.lIrPqpnc algamoney-api false 95
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-21 20:10:36.879
+!MESSAGE executing callback sts4.classpath.lIrPqpnc 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-05-21 20:10:37.027
+!MESSAGE executing callback sts4.classpath.lIrPqpnc SUCCESS [done]

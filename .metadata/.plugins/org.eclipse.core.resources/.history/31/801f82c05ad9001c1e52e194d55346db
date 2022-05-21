@@ -1,0 +1,8 @@
+
+#CRIANDO BANCO DE DADOS
+spring.jpa.database=MYSQL
+#spring.datasource.url=jdbc:mysql://localhost/algamoneyapidb?createDatabaseIfNotExist=true&useSSL=false
+spring.datasource.url=jdbc:mysql://localhost/algaspring-spi?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
+
+spring.datasource.username=root
+spring.datasource.password=root
