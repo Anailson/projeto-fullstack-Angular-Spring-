@@ -4,4 +4,6 @@
     <fullyQualifiedTypeName name="java.net.URI"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="java.net.http.HttpHeaders"/>
+    <fullyQualifiedTypeName name="antlr.collections.List"/>
 </qualifiedTypeNameHistroy>

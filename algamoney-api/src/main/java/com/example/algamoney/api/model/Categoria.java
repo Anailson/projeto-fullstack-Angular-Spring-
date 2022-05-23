@@ -21,7 +21,7 @@ public class Categoria implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long codigo;
 
-	@NotNull
+	@javax.validation.constraints.NotNull
 	@Size(min = 3, max = 20)
 	private String nome;
 

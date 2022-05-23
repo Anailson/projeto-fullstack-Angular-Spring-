@@ -1,6 +1,5 @@
 package com.example.algamoney.api.exceptionhandler;
 
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -26,52 +25,72 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 /*CAPTURANDO EXCEÇÕES DE ENTIDADES*/
 @ControllerAdvice
 public class AlgamoneyExceptionHandler extends ResponseEntityExceptionHandler {
-	
+
 	@Autowired
 	private MessageSource messageSource;
-	
-	 @Override
+
+	@Override
 	protected ResponseEntity<Object> handleHttpMessageNotReadable(HttpMessageNotReadableException ex,
 			HttpHeaders headers, HttpStatus status, WebRequest request) {
-		
-		 String mensagemUsuario = messageSource.getMessage("mensagem.invalida", null, LocaleContextHolder.getLocale());
-		 String mensagemDesenvolvedor = ex.getCause().toString();
-		 
-		 List<Erro> erros  = Arrays.asList(new Erro(mensagemUsuario, mensagemDesenvolvedor));
-		 
-		 return handleExceptionInternal(ex, erros, headers, HttpStatus.BAD_REQUEST, request);
+
+		String mensagemUsuario = messageSource.getMessage("mensagem.invalida", null, LocaleContextHolder.getLocale());
+		String mensagemDesenvolvedor = ex.getCause().toString();
+
+		List<Erro> erros = Arrays.asList(new Erro(mensagemUsuario, mensagemDesenvolvedor));
+
+		return handleExceptionInternal(ex, erros, headers, HttpStatus.BAD_REQUEST, request);
 
 	}
-	 
-	 
-	 
-	 public static class Erro {
 
-			private String mensagemUsuario;
-			private String mensagemDesenvolvedor;
+	@Override
+	protected ResponseEntity<Object> handleMethodArgumentNotValid(MethodArgumentNotValidException ex,
+			HttpHeaders headers, HttpStatus status, WebRequest request) {
 
-			public String getMensagemUsuario() {
-				return mensagemUsuario;
-			}
+		List<Erro> erros = criarListaDeErros(ex.getBindingResult());
+		return handleExceptionInternal(ex, erros, headers, HttpStatus.BAD_REQUEST, request);
+	}
 
-			public void setMensagemUsuario(String mensagemUsuario) {
-				this.mensagemUsuario = mensagemUsuario;
-			}
+	/* CRIANDO LISTA DE ERROS */
+	private List<Erro> criarListaDeErros(BindingResult bindingResult) {
+		List<Erro> erros = new ArrayList<>();
 
-			public String getMensagemDesenvolvedor() {
-				return mensagemDesenvolvedor;
-			}
+		for (FieldError fieldError : bindingResult.getFieldErrors()) {
 
-			public void setMensagemDesenvolvedor(String mensagemDesenvolvedor) {
-				this.mensagemDesenvolvedor = mensagemDesenvolvedor;
-			}
-
-			public Erro(String mensagemUsuario, String mensagemDesenvolvedor) {
-				super();
-				this.mensagemUsuario = mensagemUsuario;
-				this.mensagemDesenvolvedor = mensagemDesenvolvedor;
-			}
-
+			String mensagemUsuario = messageSource.getMessage(fieldError, LocaleContextHolder.getLocale());
+			String mensagemDesenvolvedor = fieldError.toString();
+			erros.add(new Erro(mensagemUsuario, mensagemDesenvolvedor));
 		}
+
+		return erros;
+	}
+
+	public static class Erro {
+
+		private String mensagemUsuario;
+		private String mensagemDesenvolvedor;
+
+		public String getMensagemUsuario() {
+			return mensagemUsuario;
+		}
+
+		public void setMensagemUsuario(String mensagemUsuario) {
+			this.mensagemUsuario = mensagemUsuario;
+		}
+
+		public String getMensagemDesenvolvedor() {
+			return mensagemDesenvolvedor;
+		}
+
+		public void setMensagemDesenvolvedor(String mensagemDesenvolvedor) {
+			this.mensagemDesenvolvedor = mensagemDesenvolvedor;
+		}
+
+		public Erro(String mensagemUsuario, String mensagemDesenvolvedor) {
+			super();
+			this.mensagemUsuario = mensagemUsuario;
+			this.mensagemDesenvolvedor = mensagemDesenvolvedor;
+		}
+
+	}
 
 }

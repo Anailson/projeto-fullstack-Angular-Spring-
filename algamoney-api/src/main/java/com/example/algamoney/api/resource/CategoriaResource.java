@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Optional;
 
 import javax.servlet.http.HttpServletResponse;
+import javax.validation.Valid;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -38,7 +39,7 @@ public class CategoriaResource {
 	/*----------------------SALVAR NOVOS REGISTROS----------------------------*/
 	@PostMapping
 	//@ResponseStatus(HttpStatus.CREATED) //STATUS 201 CREATED
-	public ResponseEntity<Categoria> criar (@RequestBody Categoria categoria, HttpServletResponse response) {
+	public ResponseEntity<Categoria> criar (@Valid @RequestBody Categoria categoria, HttpServletResponse response) {
 		
 		Categoria categoriaSalvar = categoriaRepository.save(categoria);
 		
@@ -52,13 +53,14 @@ public class CategoriaResource {
 	 return ResponseEntity.status(HttpStatus.CREATED).body(categoriaSalvar);
 		
 	}
-	/*BUSCANDO PELO CODIGO*////.metadata/
+	/*BUSCANDO PELO CODIGO*/
 	@GetMapping("/{codigo}")
 	public ResponseEntity<Categoria> buscarPeloCodigo(@PathVariable Long codigo) {
 	Optional<Categoria> categoria = this.categoriaRepository.findById(codigo);
 	return categoria.isPresent() ? 
 	        ResponseEntity.ok(categoria.get()) : ResponseEntity.notFound().build();
 	}
+	
 	
 	
 }
