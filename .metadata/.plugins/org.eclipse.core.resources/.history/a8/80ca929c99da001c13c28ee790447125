@@ -1,0 +1,26 @@
+package com.example.algamoney.api.exceptionhandler;
+
+import java.net.http.HttpHeaders;
+import java.util.Arrays;
+
+import org.springframework.context.i18n.LocaleContextHolder;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.http.converter.HttpMessageNotReadableException;
+import org.springframework.web.context.request.WebRequest;
+import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
+
+import antlr.collections.List;
+
+/*CAPTURANDO EXCEÇÕES DE ENTIDADES*/
+
+public class AlgamoneyExceptionHandler extends ResponseEntityExceptionHandler {
+	
+	
+	   @Override
+	protected ResponseEntity<Object> handleHttpMessageNotReadable(HttpMessageNotReadableException ex,
+			HttpHeaders headers, HttpStatus status, WebRequest request) {
+		
+		return super.handleHttpMessageNotReadable(ex, headers, status, request);
+	}
+}
