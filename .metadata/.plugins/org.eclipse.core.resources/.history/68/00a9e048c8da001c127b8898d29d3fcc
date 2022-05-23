@@ -27,33 +27,32 @@ import com.example.algamoney.api.repository.PessoaRepository;
 @RequestMapping("/pessoas")
 public class PessoaResource {
 
-	@Autowired
-	private PessoaRepository pessoaRepository;
+    @Autowired
+    private PessoaRepository pessoaRepository;
+    
+    @Autowired
+    private ApplicationEventPublisher publisher;
+    
+    @PostMapping
+    public ResponseEntity<Pessoa> criar(@Valid @RequestBody Pessoa pessoa, HttpServletResponse response) {
+        Pessoa pessoaSalva = pessoaRepository.save(pessoa);
+        
 
-	@Autowired
-	private ApplicationEventPublisher publisher;
-
-	@PostMapping
-	public ResponseEntity<Pessoa> criar(@Valid @RequestBody Pessoa pessoa, HttpServletResponse response) {
-		Pessoa pessoaSalva = pessoaRepository.save(pessoa);
-
-		/*
-		 * CRIANDO UM RECURSO PARA ORGANIZAR O CÓDIGO - CLASSE RecursoCriadoListener URI
-		 * uri = ServletUriComponentsBuilder.fromCurrentRequestUri().path("/{codigo}")
-		 * .buildAndExpand(pessoaSalva.getCodigo()).toUri();
-		 * response.setHeader("Location", uri.toASCIIString());
-		 * 
-		 */
-
+		/*CRIANDO UM RECURSO PARA ORGANIZAR O CÓDIGO - CLASSE RecursoCriadoListener
+		URI uri = ServletUriComponentsBuilder.fromCurrentRequestUri().path("/{codigo}")
+				.buildAndExpand(pessoaSalva.getCodigo()).toUri();
+		response.setHeader("Location", uri.toASCIIString());
+			
+		*/
+		
 		publisher.publishEvent(new RecursoCriadoEvent(this, response, pessoaSalva.getCodigo()));
 		return ResponseEntity.status(HttpStatus.CREATED).body(pessoaSalva);
-
-	}
-
-	@GetMapping("/{codigo}")
-	public ResponseEntity<Pessoa> buscarPeloCodigo(@PathVariable Long codigo) {
-		Optional<Pessoa> pessoa = pessoaRepository.findById(codigo);
-		return pessoa.isPresent() ? ResponseEntity.ok(pessoa.get()) : ResponseEntity.notFound().build();
-	}
-
+    }
+    
+    @GetMapping("/{codigo}")
+    public ResponseEntity<Pessoa> buscarPeloCodigo(@PathVariable Long codigo) {
+        Optional<Pessoa> pessoa = pessoaRepository.findById(codigo);
+        return pessoa.isPresent() ? ResponseEntity.ok(pessoa.get()) : ResponseEntity.notFound().build();
+    }
+    
 }
