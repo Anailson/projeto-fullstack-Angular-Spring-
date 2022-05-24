@@ -65,8 +65,8 @@ public class PessoaResource {
 	public void remover(@PathVariable Long codigo) {
 		
 	
-		//pessoaRepository.delete(codigo);
-		pessoaRepository.deleteById(codigo);
+		pessoaRepository.delete(codigo);
+		//pessoaRepository.deleteById(codigo);
 		
 				
 		

@@ -14,5 +14,3 @@ spring.jpa.show-sql=true
 
 #VERIFICA QUAIS CAMPOS PODEM SER ADD NA API - ATRIBUTOS DESCONHECIDOS
 spring.jackson.deserialization.fail-on-unknown-properties=true
-
-

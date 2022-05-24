@@ -16,3 +16,4 @@ spring.jpa.show-sql=true
 spring.jackson.deserialization.fail-on-unknown-properties=true
 
 
+#4.1. Removendo pessoa com DELETE

@@ -52,13 +52,13 @@ public class AlgamoneyExceptionHandler extends ResponseEntityExceptionHandler {
 	
 	/*VALIDANDO QD É FEITA A INCLUSÃO DE NOVO LANÇAMENTO COM ALGUM USUÁRIO QUE NÃO ESTEJE NO BANCO*/
 	@ExceptionHandler({ EmptyResultDataAccessException.class } )
-	public ResponseEntity<Object> handleEmptyResultDataAccessException(EmptyResultDataAccessException ex, WebRequest request) {
+	public ResponseEntity<Object> handleDataIntegrityViolationException(EmptyResultDataAccessException ex, WebRequest request) {
 		String mensagemUsuario = messageSource.getMessage("recurso.operacao-nao-permitida", null, LocaleContextHolder.getLocale());
 		String mensagemDesenvolvedor = ex.toString();
 		List<Erro> erros = Arrays.asList(new Erro(mensagemUsuario, mensagemDesenvolvedor));
 		return handleExceptionInternal(ex, erros, new HttpHeaders(), HttpStatus.NOT_FOUND, request);
 	}
-
+	
 	
 
 	/* CRIANDO LISTA DE ERROS */
