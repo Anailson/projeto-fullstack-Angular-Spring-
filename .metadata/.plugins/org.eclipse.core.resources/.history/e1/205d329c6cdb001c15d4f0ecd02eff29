@@ -77,11 +77,10 @@ public class PessoaResource {
 	@PutMapping("/{codigo}")
 	public Pessoa atualizar(@PathVariable Long codigo, @Valid @RequestBody Pessoa pessoa) {
 
-		/*Pessoa pessoaSalva = this.pessoaRepository.findById(codigo)
+		Pessoa pessoaSalva = this.pessoaRepository.findById(codigo)
 				.orElseThrow(() -> new EmptyResultDataAccessException(1));
 
-		BeanUtils.copyProperties(pessoa, pessoaSalva, "codigo");*/
-		Pessoa pessoaSalva = pessoaService.atualizar(codigo, pessoa);
+		BeanUtils.copyProperties(pessoa, pessoaSalva, "codigo");
 
 		return this.pessoaRepository.save(pessoaSalva);
 

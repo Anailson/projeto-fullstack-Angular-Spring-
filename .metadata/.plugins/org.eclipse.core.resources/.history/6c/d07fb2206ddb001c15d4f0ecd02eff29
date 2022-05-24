@@ -74,17 +74,23 @@ public class PessoaResource {
 	}
 
 	/*-----ATUALIZAR---*/
-	@PutMapping("/{codigo}")
+/*	@PutMapping("/{codigo}")
 	public Pessoa atualizar(@PathVariable Long codigo, @Valid @RequestBody Pessoa pessoa) {
 
-		/*Pessoa pessoaSalva = this.pessoaRepository.findById(codigo)
+	Pessoa pessoaSalva = this.pessoaRepository.findById(codigo)
 				.orElseThrow(() -> new EmptyResultDataAccessException(1));
 
-		BeanUtils.copyProperties(pessoa, pessoaSalva, "codigo");*/
+		BeanUtils.copyProperties(pessoa, pessoaSalva, "codigo");
 		Pessoa pessoaSalva = pessoaService.atualizar(codigo, pessoa);
 
 		return this.pessoaRepository.save(pessoaSalva);
 
+	}*/
+	@PutMapping("/{codigo}")
+	//@PreAuthorize("hasAuthority('ROLE_CADASTRAR_PESSOA') and #oauth2.hasScope('write')")
+	public ResponseEntity<Pessoa> atualizar(@PathVariable Long codigo, @Valid @RequestBody Pessoa pessoa) {
+		Pessoa pessoaSalva = pessoaService.atualizar(codigo, pessoa);
+		return ResponseEntity.ok(pessoaSalva);
 	}
 
 }
