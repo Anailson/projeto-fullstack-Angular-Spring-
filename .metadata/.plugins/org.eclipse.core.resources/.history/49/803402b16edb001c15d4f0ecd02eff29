@@ -90,10 +90,13 @@ public class PessoaResource {
 	/*Implementando atualização parcial com PUT  AJUSTAR EM OUTRO MOMENTO*/
 	@PutMapping("/{codigo}/ativo")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
+	//@PreAuthorize("hasAuthority('ROLE_CADASTRAR_PESSOA') and #oauth2.hasScope('write')")
 	public void atualizarPropriedadeAtivo(@PathVariable Long codigo, @RequestBody Boolean ativo) {
 		
-	  pessoaService.atualizarPropriedadeAtivo(codigo, ativo);
-			
+	  pessoaService.atualizar(codigo, ativo);
+		//pessoaService.atualizarPropriedadeAtivo(codigo, ativo);
+		
+		
 		
 	}
 
