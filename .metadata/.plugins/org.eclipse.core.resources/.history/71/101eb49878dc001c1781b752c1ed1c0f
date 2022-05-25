@@ -16,7 +16,3 @@ spring.jpa.show-sql=true
 spring.jackson.deserialization.fail-on-unknown-properties=true
 
 
-#AJUSTANDO DATA FORMATADA dd/MM/yyyy" yyyy-MM-dd
-spring.jackson.date-format=yyyy-MM-dd
-
-
