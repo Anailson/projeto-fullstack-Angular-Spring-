@@ -23,6 +23,7 @@ INDEX VERSION 1.131+C:\sts-workspace\Fullstack Angular e Spring\.metadata\.plugi
 2158215097.index
 535984539.index
 2420867297.index
+1229977501.index
 66984955.index
 1302399575.index
 885069392.index

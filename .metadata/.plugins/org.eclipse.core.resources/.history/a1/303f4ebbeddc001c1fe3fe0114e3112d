@@ -38,21 +38,21 @@ public class Lancamento {
 	//@JsonFormat(pattern =  "dd/MM/yyyy")
 	private LocalDate dataPagamento;
 
-	@NotNull
+	//@NotNull
 	private BigDecimal valor;
 
 	private String observacao;
 
-	@NotNull
+	//@NotNull
 	@Enumerated(EnumType.STRING)
 	private TipoLancamento tipo;
 
-	@NotNull
+	//@NotNull
 	@ManyToOne
 	@JoinColumn(name = "codigo_categoria")
 	private Categoria categoria;
 
-	@NotNull
+	//@NotNull
 	@ManyToOne
 	@JoinColumn(name = "codigo_pessoa")
 	private Pessoa pessoa;
