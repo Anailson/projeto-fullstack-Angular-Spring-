@@ -6,8 +6,6 @@
     <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
     <fullyQualifiedTypeName name="java.net.URI"/>
     <fullyQualifiedTypeName name="java.util.concurrent.Flow.Publisher"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseStatus"/>
     <fullyQualifiedTypeName name="org.springframework.dao.EmptyResultDataAccessException"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
     <fullyQualifiedTypeName name="org.springframework.beans.BeanUtils"/>
@@ -55,4 +53,7 @@
     <fullyQualifiedTypeName name="com.example.algamoney.api.repository.lancamento.LancamentoRepositoryQuery"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.example.algamoney.api.model.Lancamento"/>
+    <fullyQualifiedTypeName name="com.example.algamoney.api.model.Lancamento_"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ResponseStatus"/>
 </qualifiedTypeNameHistroy>
