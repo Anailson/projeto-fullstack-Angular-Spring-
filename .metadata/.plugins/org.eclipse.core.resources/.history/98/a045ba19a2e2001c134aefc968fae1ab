@@ -65,4 +65,3 @@ public class AuthorizationServerConfig  extends AuthorizationServerConfigurerAda
 	}
 	
 }
-//6.5. Configurando JWT no projeto

@@ -45,6 +45,8 @@ public class AuthorizationServerConfig  extends AuthorizationServerConfigurerAda
 		endpoints
 				.tokenStore(tokenStore())
 				.accessTokenConverter(acessTokenConverter())
+				//.authenticationManager(authenticationManager);
+				.reuseRefreshTokens(false)//ser usa a aplicação todo o dia o token não expirar
 				.authenticationManager(authenticationManager);
 	}
 	
@@ -65,4 +67,3 @@ public class AuthorizationServerConfig  extends AuthorizationServerConfigurerAda
 	}
 	
 }
-//6.5. Configurando JWT no projeto

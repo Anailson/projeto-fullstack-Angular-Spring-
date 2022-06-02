@@ -42,9 +42,14 @@ public class AuthorizationServerConfig  extends AuthorizationServerConfigurerAda
 	@Override
 	public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
 		
+		TokenEnhancerChain tokenEnhancerChain = new TokenEnhancerChain();
+		tokenEnhancerChain.setTokenEnhancers(Arrays.asList(tokenEnhancer(), acessTokenConverter()));
+		
 		endpoints
 				.tokenStore(tokenStore())
 				.accessTokenConverter(acessTokenConverter())
+				//.authenticationManager(authenticationManager);
+				.reuseRefreshTokens(false)//ser usa a aplicação todo o dia o token não expirar
 				.authenticationManager(authenticationManager);
 	}
 	
@@ -61,8 +66,6 @@ public class AuthorizationServerConfig  extends AuthorizationServerConfigurerAda
 	public TokenStore tokenStore() {
 		
 		return new JwtTokenStore(acessTokenConverter());
-			
+		//return new InMemoryTokenStore();		
 	}
-	
 }
-//6.5. Configurando JWT no projeto

@@ -17,8 +17,8 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Res
 @EnableResourceServer
 public class ResourceServerConfig extends ResourceServerConfigurerAdapter{
 	
-	@Autowired
-    private UserDetailsService userDetailsService;
+//	@Autowired
+	//private UserDetailsService userDetailsService;
 	
 	@Autowired
 	public void configure(AuthenticationManagerBuilder auth) throws Exception {
