@@ -1,0 +1,52 @@
+package com.example.algamoney.api.config;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Configurable;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer;
+import org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
+
+@Configurable
+@EnableResourceServer
+public class AuthorizationServerConfig  extends AuthorizationServerConfigurerAdapter{
+	
+	@Autowired
+	private AuthenticationManager authenticationManager;
+
+	@Override
+	public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
+
+		clients.inMemory()
+				.withClient("angular")//nome do cliente
+				.secret("@ngul@r0")
+				.scopes("read", "write")//scope limpar o acesso do cliente angular
+				.authorizedGrantTypes("password", "refresh_token")
+				.accessTokenValiditySeconds(20)//tempo para cessar app
+				.refreshTokenValiditySeconds(3600 * 24) // defini os dias 
+				
+				.and()
+				.withClient("mobile")
+				.secret("m0b1l30")
+				.scopes("read")
+				.authorizedGrantTypes("password", "refresh_token")
+				.accessTokenValiditySeconds(1800)
+				.refreshTokenValiditySeconds(3600 * 24);
+				
+	}	
+	
+
+	@Override
+	public void configure(AuthorizationServerEndpointsConfigurer endpoints) throws Exception {
+		
+		TokenEnhancerChain tokenEnhancerChain = new TokenEnhancerChain();
+		tokenEnhancerChain.setTokenEnhancers(Arrays.asList(tokenEnhancer(), acessTokenConverter()));
+		
+		endpoints
+				.tokenStore(tokenStore())
+				.accessTokenConverter(acessTokenConverter())
+				//.authenticationManager(authenticationManager);
+				.reuseRefreshTokens(false)//ser usa a aplicação todo o dia o token não expirar
+				.authenticationManager(authenticationManager);
+	}
+}

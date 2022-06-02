@@ -5285,3 +5285,437 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 14:10:03.059
 !MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2022-06-01 15:03:23.227
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/java.util.ImmutableCollections$MapN.<init>(ImmutableCollections.java:1019)
+	at java.base/java.util.Map.of(Map.java:1327)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.toLemMinXOptions(InitializationOptionsProvider.java:26)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:22)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:1)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLExtensionRegistry.getInitiatizationOptions(XMLExtensionRegistry.java:135)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$5(LanguageServerWrapper.java:352)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1146)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1769)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-01 15:03:33.016
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.1.5.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.1.5.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:03:34.361
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:03:34.370
+!MESSAGE classpath=105 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:03:34.377
+!MESSAGE buffering callback sts4.classpath.lbmjSNlI algamoney-api false 105
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:03:34.378
+!MESSAGE executing callback sts4.classpath.lbmjSNlI 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:03:35.357
+!MESSAGE executing callback sts4.classpath.lbmjSNlI SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:03:37.037
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:03:38.132
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-01 15:03:39.703
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.1.5.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.1.5.Final
+
+!ENTRY org.eclipse.ui 2 2 2022-06-01 15:04:26.549
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:37.276
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lbmjSNlI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:37.277
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.lbmjSNlI
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:37.278
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:37.278
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lbmjSNlI => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:37.333
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:37.334
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@77367ec3[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=555)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:37.334
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:04:37.578
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:40.265
+!MESSAGE Boot LS startup time from start to initialized: 2928ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:40.386
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TIRKdxTbisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:40.387
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:40.387
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:40.388
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:40.388
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:40.389
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.TIRKdxTb => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:40.395
+!MESSAGE classpath=105 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:40.400
+!MESSAGE buffering callback sts4.classpath.TIRKdxTb algamoney-api false 105
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:40.401
+!MESSAGE executing callback sts4.classpath.TIRKdxTb 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:04:40.789
+!MESSAGE executing callback sts4.classpath.TIRKdxTb SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:05:10.033
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:05:21.182
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:05:45.494
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:06:11.381
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:06:21.594
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:06:30.105
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:06:37.929
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:07:24.433
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:07:32.157
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:07:56.971
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2022-06-01 15:08:02.842
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/java.util.ImmutableCollections$MapN.<init>(ImmutableCollections.java:1019)
+	at java.base/java.util.Map.of(Map.java:1327)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.toLemMinXOptions(InitializationOptionsProvider.java:26)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:22)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:1)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLExtensionRegistry.getInitiatizationOptions(XMLExtensionRegistry.java:135)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$5(LanguageServerWrapper.java:352)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1146)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1769)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-01 15:08:10.024
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.1.5.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.1.5.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:08:11.025
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:08:11.030
+!MESSAGE classpath=103 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:08:11.035
+!MESSAGE buffering callback sts4.classpath.TIRKdxTb algamoney-api false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:08:11.036
+!MESSAGE executing callback sts4.classpath.TIRKdxTb 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:08:11.085
+!MESSAGE executing callback sts4.classpath.TIRKdxTb SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:08:12.237
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:08:12.539
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-01 15:08:16.172
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.1.5.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.1.5.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-01 15:08:17.539
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.1.5.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.1.5.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:08:18.839
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:08:18.848
+!MESSAGE classpath=105 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:08:18.853
+!MESSAGE buffering callback sts4.classpath.TIRKdxTb algamoney-api false 105
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:08:18.854
+!MESSAGE executing callback sts4.classpath.TIRKdxTb 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:08:18.906
+!MESSAGE executing callback sts4.classpath.TIRKdxTb SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:08:19.886
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:08:20.155
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-01 15:08:21.211
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.1.5.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.1.5.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:08:26.611
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:08:33.593
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:08:59.288
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:09:04.304
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:09:24.630
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:09:49.700
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:09:52.240
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:10:01.519
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:10:02.564
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:10:18.522
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:10:32.457
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:10:58.421
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:11:05.211
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:14:38.127
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:14:41.404
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:15:27.048
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:15:50.114
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:15:54.556
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:16:24.282
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:16:38.953
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:17:12.376
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:17:48.300
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:18:00.743
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:18:10.720
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:18:21.956
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:18:37.833
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:19:04.377
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:29:11.100
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-01 15:29:11.321
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:34:21.898
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TIRKdxTb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:34:21.899
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.TIRKdxTb
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:34:21.900
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-01 15:34:21.901
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.TIRKdxTb => OK
+!SESSION 2022-06-02 14:02:19.817 -----------------------------------------------
+eclipse.buildId=4.10.0.202103111225
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2022-06-02 14:04:32.888
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-02 14:04:32.888
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e3dc24f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3ea8ff31,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-02 14:04:45.400
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-02 14:04:45.400
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6339b949[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=555)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-02 14:04:45.413
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-02 14:04:45.627
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-06-02 14:04:48.227
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\anailson'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-02 14:05:01.643
+!MESSAGE Boot LS startup time from start to initialized: 16219ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-02 14:05:01.863
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.adYZgLoHisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-02 14:05:01.871
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-02 14:05:01.874
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-02 14:05:01.876
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-02 14:05:01.876
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.adYZgLoH => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-02 14:05:01.881
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-02 14:05:01.955
+!MESSAGE classpath=105 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-02 14:05:01.966
+!MESSAGE buffering callback sts4.classpath.adYZgLoH algamoney-api false 105
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-02 14:05:01.967
+!MESSAGE executing callback sts4.classpath.adYZgLoH 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-06-02 14:05:04.021
+!MESSAGE executing callback sts4.classpath.adYZgLoH FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-06-02 14:05:04.023
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1950)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2085)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-02 14:07:31.706
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.1.5.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.1.5.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-02 14:15:02.087
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-02 14:15:07.823
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-02 14:15:43.349
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-02 14:15:54.316
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-02 14:17:24.280
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-02 14:17:48.789
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-02 14:17:55.894
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-02 14:18:15.346
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final

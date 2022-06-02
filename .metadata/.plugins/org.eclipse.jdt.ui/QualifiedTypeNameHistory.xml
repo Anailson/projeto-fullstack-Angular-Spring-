@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.springframework.web.servlet.support.ServletUriComponentsBuilder"/>
-    <fullyQualifiedTypeName name="java.net.http.HttpHeaders"/>
-    <fullyQualifiedTypeName name="antlr.collections.List"/>
-    <fullyQualifiedTypeName name="javax.validation.constraints.NotNull"/>
-    <fullyQualifiedTypeName name="java.net.URI"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.Flow.Publisher"/>
-    <fullyQualifiedTypeName name="org.springframework.dao.EmptyResultDataAccessException"/>
-    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.BeanUtils"/>
-    <fullyQualifiedTypeName name="com.example.algamoney.api.service.PessoaService"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.JpaRepository"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
@@ -29,7 +19,6 @@
     <fullyQualifiedTypeName name="javax.validation.Valid"/>
     <fullyQualifiedTypeName name="org.flywaydb.core.internal.util.ExceptionUtils"/>
     <fullyQualifiedTypeName name="org.springframework.dao.DataIntegrityViolationException"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.example.algamoney.api.service.LancamentoService"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.ExceptionHandler"/>
@@ -60,4 +49,15 @@
     <fullyQualifiedTypeName name="org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
     <fullyQualifiedTypeName name="org.springframework.security.config.http.SessionCreationPolicy"/>
+    <fullyQualifiedTypeName name="org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer"/>
+    <fullyQualifiedTypeName name="org.springframework.security.oauth2.config.annotation.web.configurers.ResourceServerSecurityConfigurer"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.UserDetailsService"/>
+    <fullyQualifiedTypeName name="org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurerAdapter"/>
+    <fullyQualifiedTypeName name="org.springframework.security.authentication.AuthenticationManager"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerConfigurerAdapter"/>
+    <fullyQualifiedTypeName name="org.springframework.security.oauth2.config.annotation.configurers.ClientDetailsServiceConfigurer"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+    <fullyQualifiedTypeName name="org.springframework.security.oauth2.provider.token.TokenStore"/>
+    <fullyQualifiedTypeName name="org.springframework.security.oauth2.provider.token.store.InMemoryTokenStore"/>
 </qualifiedTypeNameHistroy>
