@@ -5980,3 +5980,57 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 10:05:11.454
 !MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.ui 2 2 2022-06-03 10:40:18.483
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 10:40:42.696
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 10:41:23.296
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 10:41:38.950
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 10:43:14.709
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 10:43:46.341
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 10:43:55.297
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 10:44:02.243
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 10:44:46.613
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 10:44:52.913
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 10:44:57.066
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 10:45:13.772
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 10:46:10.848
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 11:08:03.433
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 11:08:08.659
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 11:09:15.752
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 11:12:47.485
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 11:12:59.371
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
