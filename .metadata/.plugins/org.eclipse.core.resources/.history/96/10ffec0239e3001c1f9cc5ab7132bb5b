@@ -33,10 +33,8 @@ public class AuthorizationServerConfig  extends AuthorizationServerConfigurerAda
 				.secret("@ngul@r0")
 				.scopes("read", "write")//scope limpar o acesso do cliente angular
 				.authorizedGrantTypes("password", "refresh_token")
-				.accessTokenValiditySeconds(20)//tempo para cessar app
-				.refreshTokenValiditySeconds(3600 * 24);  // defini os dias 
-				
-				
+				.accessTokenValiditySeconds(1800);//tempo para cessar app
+							
 				
 	}	
 	
@@ -47,7 +45,6 @@ public class AuthorizationServerConfig  extends AuthorizationServerConfigurerAda
 		endpoints
 				.tokenStore(tokenStore())
 				.accessTokenConverter(acessTokenConverter())
-				.reuseRefreshTokens(false)
 				.authenticationManager(authenticationManager);
 	}
 	

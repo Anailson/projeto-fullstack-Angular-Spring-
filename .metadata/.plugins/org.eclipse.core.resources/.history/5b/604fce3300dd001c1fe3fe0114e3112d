@@ -1,5 +1,0 @@
-package com.example.algamoney.api.repository.lancamento;
-
-public class LancamentoRepositoryQuery {
-
-}

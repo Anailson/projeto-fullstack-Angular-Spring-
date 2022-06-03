@@ -32,11 +32,9 @@ public class AuthorizationServerConfig  extends AuthorizationServerConfigurerAda
 				.withClient("angular")//nome do cliente
 				.secret("@ngul@r0")
 				.scopes("read", "write")//scope limpar o acesso do cliente angular
-				.authorizedGrantTypes("password", "refresh_token")
-				.accessTokenValiditySeconds(20)//tempo para cessar app
-				.refreshTokenValiditySeconds(3600 * 24);  // defini os dias 
-				
-				
+				.authorizedGrantTypes("password")
+				.accessTokenValiditySeconds(1800);//tempo para cessar app
+							
 				
 	}	
 	
@@ -47,7 +45,6 @@ public class AuthorizationServerConfig  extends AuthorizationServerConfigurerAda
 		endpoints
 				.tokenStore(tokenStore())
 				.accessTokenConverter(acessTokenConverter())
-				.reuseRefreshTokens(false)
 				.authenticationManager(authenticationManager);
 	}
 	
@@ -68,4 +65,4 @@ public class AuthorizationServerConfig  extends AuthorizationServerConfigurerAda
 	}
 	
 }
-//6.6. Renovando o access token com o refresh token
+//6.5. Configurando JWT no projeto
