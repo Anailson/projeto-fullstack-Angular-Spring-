@@ -5977,3 +5977,6 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 09:31:17.904
 !MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-03 10:05:11.454
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final

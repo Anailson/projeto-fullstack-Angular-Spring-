@@ -36,7 +36,8 @@ public class AuthorizationServerConfig  extends AuthorizationServerConfigurerAda
 				.accessTokenValiditySeconds(20)//tempo para cessar app
 				.refreshTokenValiditySeconds(3600 * 24);  // defini os dias 
 				
-								
+				
+				
 	}	
 	
 
