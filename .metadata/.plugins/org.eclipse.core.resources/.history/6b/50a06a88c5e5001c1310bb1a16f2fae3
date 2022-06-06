@@ -34,7 +34,7 @@ public class CategoriaResource {
 	@Autowired
 	private ApplicationEventPublisher publisher;
 
-	
+	//6.9. O que é CORS? - min14
 	//@CrossOrigin(maxAge = 10, origins = {"http://localhost:8000"}) // autorizando o get em categorias 
 	@GetMapping
 	public List<Categoria> listar() {
