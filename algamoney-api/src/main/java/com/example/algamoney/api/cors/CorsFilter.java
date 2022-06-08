@@ -24,7 +24,7 @@ public class CorsFilter implements Filter{
 	
 	private String originPermitida = "http://localhost:8000"; //TODO: configuar para diferentes ambientes
 
-		
+			
 	@Override
 	public void doFilter(ServletRequest req, ServletResponse resp, FilterChain chain)
 			throws IOException, ServletException {

@@ -35,7 +35,7 @@ public class AuthorizationServerConfig  extends AuthorizationServerConfigurerAda
 				.authorizedGrantTypes("password", "refresh_token")
 				.accessTokenValiditySeconds(20)//tempo para cessar app
 				.refreshTokenValiditySeconds(3600 * 24);  // defini os dias 
-				
+		//6.11. Movendo o usuário para o banco de dados solução pesquisa		
 								
 	}	
 	
