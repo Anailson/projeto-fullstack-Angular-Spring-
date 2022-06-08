@@ -36,14 +36,13 @@ public class AuthorizationServerConfig  extends AuthorizationServerConfigurerAda
 				.accessTokenValiditySeconds(1800)//tempo para cessar app
 				.refreshTokenValiditySeconds(3600 * 24)  // defini os dias 
 				
-				//OUTRO CLIENT : mobile
 				.and()
-					.withClient("mobile")
-					.secret("m0b1l30")
-					.scopes("read")
-					.authorizedGrantTypes("password", "refresh_token")
-					.accessTokenValiditySeconds(1800)
-					.refreshTokenValiditySeconds(3600 * 24);
+				.withClient("mobile")
+				.secret("m0b1l30")
+				.scopes("read")
+				.authorizedGrantTypes("password", "refresh_token")
+				.accessTokenValiditySeconds(1800)
+				.refreshTokenValiditySeconds(3600 * 24);
 					
 								
 	}	

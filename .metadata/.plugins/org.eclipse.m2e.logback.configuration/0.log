@@ -2939,3 +2939,118 @@
 2022-06-07 16:48:32,795 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
 2022-06-07 16:48:32,797 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-06-07 16:48:32,797 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 09:15:58,226 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-06-08 10:01:32,982 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact org.hibernate:hibernate-validator:jar:6.1.5.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.1.5.Final
+2022-06-08 10:01:35,620 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:01:35,627 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:01:35,648 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:01:35,657 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:01:35,657 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 10:34:38,896 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:34:38,901 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:34:38,905 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:34:38,909 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:34:38,909 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 10:35:55,144 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:35:55,146 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:35:55,150 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:35:55,154 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:35:55,155 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 10:36:03,552 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:36:03,554 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:36:03,556 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:36:03,560 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:36:03,560 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 10:40:53,087 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:40:53,089 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:40:53,092 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:40:53,095 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:40:53,095 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 10:41:53,716 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:41:53,718 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:41:53,721 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:41:53,725 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:41:53,725 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 10:43:35,661 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:43:35,662 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:43:35,666 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:43:35,669 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:43:35,670 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 10:45:46,797 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:45:46,799 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:45:46,802 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:45:46,807 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:45:46,807 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 10:46:25,285 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:46:25,286 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:46:25,289 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:46:25,295 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:46:25,295 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 10:46:45,950 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:46:45,951 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:46:45,954 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:46:45,957 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:46:45,958 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 10:47:17,902 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:47:17,904 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:47:17,907 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:47:17,911 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:47:17,912 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 10:47:22,015 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:47:22,017 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:47:22,019 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:47:22,023 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:47:22,023 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 10:47:36,244 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:47:36,247 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:47:36,250 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:47:36,254 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:47:36,254 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 10:48:20,103 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:48:20,104 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:48:20,107 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:48:20,109 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:48:20,109 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 10:48:51,415 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:48:51,417 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:48:51,419 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:48:51,422 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:48:51,422 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 10:49:17,362 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:49:17,365 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:49:17,368 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:49:17,374 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:49:17,374 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 10:49:59,897 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:49:59,899 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:49:59,901 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:49:59,905 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:49:59,905 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 10:50:02,351 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:50:02,353 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 10:50:02,356 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 10:50:02,360 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 10:50:02,360 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 11:01:27,384 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 11:01:27,386 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 11:01:27,389 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 11:01:27,393 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 11:01:27,393 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 11:01:31,936 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 11:01:31,938 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 11:01:31,940 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 11:01:31,945 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 11:01:31,946 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 11:01:46,601 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 11:01:46,603 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 11:01:46,607 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 11:01:46,610 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 11:01:46,611 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 11:01:49,003 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 11:01:49,005 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 11:01:49,008 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2022-06-08 11:01:49,011 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 11:01:49,011 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\sts-workspace\Fullstack Angular e Spring\algamoney-api\src\test\resources
+2022-06-08 11:01:59,210 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-06-08 11:01:59,211 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-06-08 11:01:59,213 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources

@@ -48,7 +48,7 @@ public class CategoriaResource {
 	/*----------------------SALVAR NOVOS REGISTROS----------------------------*/
 	@PostMapping
 	// @ResponseStatus(HttpStatus.CREATED) //STATUS 201 CREATED
-	 @PreAuthorize("hasAuthority('ROLE_CADASTRAR_CATEGORIA') and hasAuthority('SCOPE_write')")
+	  @PreAuthorize("hasAuthority('ROLE_CADASTRAR_CATEGORIA') and hasAuthority('SCOPE_write')")
 	public ResponseEntity<Categoria> criar(@Valid @RequestBody Categoria categoria, HttpServletResponse response) {
 
 		Categoria categoriaSalvar = categoriaRepository.save(categoria);
@@ -66,7 +66,7 @@ public class CategoriaResource {
 
 	/* BUSCANDO PELO CODIGO */
 	@GetMapping("/{codigo}")
-	@PreAuthorize("hasAuthority('ROLE_PESQUISAR_CATEGORIA') and hasAuthority('SCOPE_read')")
+	@PreAuthorize("hasAuthority('ROLE_PESQUISAR_CATEGORIA') and #oauth2.hasScope('read')")
 	public ResponseEntity<Categoria> buscarPeloCodigo(@PathVariable Long codigo) {
 		Optional<Categoria> categoria = this.categoriaRepository.findById(codigo);
 		return categoria.isPresent() ? ResponseEntity.ok(categoria.get()) : ResponseEntity.notFound().build();

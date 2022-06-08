@@ -36,7 +36,7 @@ public class AuthorizationServerConfig  extends AuthorizationServerConfigurerAda
 				.accessTokenValiditySeconds(1800)//tempo para cessar app
 				.refreshTokenValiditySeconds(3600 * 24)  // defini os dias 
 				
-				//OUTRO CLIENT : mobile
+				//OUTRO CLIENT : monile
 				.and()
 					.withClient("mobile")
 					.secret("m0b1l30")

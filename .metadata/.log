@@ -7054,3 +7054,96 @@ java.util.concurrent.TimeoutException
 	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
 	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:01:27.544
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-06-08 10:01:32.984
+!MESSAGE The artifact org.hibernate:hibernate-validator:jar:6.1.5.Final has been relocated to org.hibernate.validator:hibernate-validator:jar:6.1.5.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:34:38.774
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:35:55.108
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:36:03.524
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:40:53.048
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:41:53.681
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:43:35.632
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:45:46.768
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:46:25.264
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:46:45.928
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:47:17.878
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:47:21.991
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:47:36.219
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:48:20.085
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:48:51.396
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:49:17.342
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:49:59.875
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 10:50:02.225
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 11:01:27.353
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 11:01:31.915
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 11:01:46.582
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 11:01:48.881
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2022-06-08 11:01:59.192
+!MESSAGE Hibernate JPA 2 Static-Metamodel Generator 5.4.28.Final
+
+!ENTRY org.eclipse.jface 2 0 2022-06-08 11:04:08.631
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-06-08 11:04:08.631
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.togglelinecommentcommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f296e5f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2fdce2e1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
